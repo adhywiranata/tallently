@@ -4,7 +4,8 @@ import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import { Provider }                                     from 'react-redux'
 
 import AppContainer from './containers/AppContainer.js'
-const store = {}
+const store = {} // Not yet used.. its fandy's job. LOL
+console.log('IGNORE THE ERRORS. Urusan fandy Redux nya :P :P ')
 
 var mountNode = document.getElementById('app')
 
