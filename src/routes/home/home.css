@@ -3,3 +3,7 @@
   font-size:3em;
   font-family: 'Slabo 27px', serif;
 }
+
+.hi:hover {
+  font-size:5em;
+}
