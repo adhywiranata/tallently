@@ -6,8 +6,8 @@
   text-align: center;
   font-size:3em;
   font-family: 'Slabo 27px', serif;
+  padding-top: 50px;
 }
 
 .hi:hover {
-  font-size:5em;
 }
