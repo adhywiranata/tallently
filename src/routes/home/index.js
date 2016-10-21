@@ -1,11 +1,6 @@
 import React, { Component, PropTypes }  from 'react'
 import css                              from './home.css'
-import ButtonUI                         from '../../components/SemanticUI/Button/ButtonUI'
-import InputUI                          from '../../components/SemanticUI/Input/InputUI'
-import { DummyUI, ButtonUI2 }           from '../../components/SemanticUI'
-
-console.log(DummyUI)
-console.log(ButtonUI2)
+import { ButtonUI, InputUI, CardSimpleUI } from '../../components/SemanticUI'
 
 class Home extends Component {
 
@@ -21,6 +16,7 @@ class Home extends Component {
         </h1>
         <ButtonUI handleClick={this.handleClick.bind(this)}>hey</ButtonUI>
         <InputUI placeholder='heyyy' />
+        <CardSimpleUI />
       </div>
     )
   }
