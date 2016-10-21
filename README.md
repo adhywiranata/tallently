@@ -1,5 +1,5 @@
 # tallently
-C4TK 2016 Project
+Use your talent to enhance your career!
 
 ## Installation
 
