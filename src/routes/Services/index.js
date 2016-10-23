@@ -1,14 +1,14 @@
-import React, { Component, PropTypes }  from 'react'
-import css from './services.css'
+import React, { Component, PropTypes } from "react";
+import css from "./services.css";
 
 class Services extends Component {
-  render () {
+  render() {
     return (
       <div>
         hello C4TK, this is another page!
       </div>
-    )
+    );
   }
 }
 
-export default Services
+export default Services;

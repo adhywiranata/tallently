@@ -1,16 +1,16 @@
-import React, { Component, PropTypes } from 'react'
-import { Input } from 'semantic-ui-react'
+import React, { Component, PropTypes } from "react";
+import { Input } from "semantic-ui-react";
 
 class InputUI extends Component {
-  render () {
+  render() {
     return (
-      <Input placeholder={ this.props.placeholder } />
-    )
+      <Input placeholder={this.props.placeholder} />
+    );
   }
 }
 
 InputUI.propTypes = {
-  placeholder: PropTypes.string
-}
+  placeholder: PropTypes.string,
+};
 
-export default InputUI
+export default InputUI;

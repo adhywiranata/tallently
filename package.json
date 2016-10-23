@@ -1,13 +1,14 @@
 {
-  "name": "tallently",
+  "name": "tiketiketan.com",
   "version": "1.0.0",
-  "description": "count your blessings, tally your talents",
+  "description": "just another rip-off app for learning purposes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --hot --inline",
     "prod": "nodemon server/index.js",
-    "build": "webpack"
+    "build": "webpack",
+    "lint": "./node_modules/.bin/eslint src"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,11 @@
     "babel-preset-react": "^6.16.0",
     "babel-preset-react-hmre": "^1.1.1",
     "css-loader": "^0.25.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
     "file-loader": "^0.9.0",
     "json-loader": "^0.5.4",
     "react-hot-loader": "^3.0.0-beta.6",
