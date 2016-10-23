@@ -6,7 +6,7 @@
         "import"
     ],
     "rules": {
-        "semi": ["error", "always"],
-        "quotes": ["error", "double"]
+        "semi": ["off", "always"],
+        "quotes": ["error", "single"]
     }
 }

@@ -1,8 +1,8 @@
-import React from "react";
-import { Router, Route, hashHistory, IndexRoute, Link } from "react-router";
+import React from 'react';
+import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 
-import Home from "./Home";
-import Services from "./Services";
+import Home from './Home';
+import Services from './Services';
 
 export default <Router history={hashHistory}>
   <Route
