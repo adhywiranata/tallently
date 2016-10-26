@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <div className={css.home}>
         <h1 className={css.hi}>
-          hello C4TK!
+          hello Again!
         </h1>
         <ButtonUI handleClick={e => this.handleClick(e)}>hey</ButtonUI>
         <InputUI placeholder="heyyy" />

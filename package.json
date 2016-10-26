@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test",
-    "dev": "webpack-dev-server --hot --inline",
-    "prod": "nodemon server/index.js",
+    "dev": "export NODE_ENV=development && webpack-dev-server --hot --inline --port 3000",
+    "prod": "export NODE_ENV=production && webpack && node server/index.js",
     "build": "webpack",
     "lint": "eslint src",
-    "test-react": "export NODE_ENV=testing && mocha ./tests/react-spec.js --compilers js:babel-core/register --require ignore-styles"
+    "test-react": "export NODE_ENV=production && mocha ./tests/react-spec.js --compilers js:babel-core/register --require ignore-styles"
   },
   "author": "",
   "license": "ISC",

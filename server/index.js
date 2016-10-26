@@ -1,15 +1,18 @@
 const express = require('express')
 const MongoClient = require('mongodb').MongoClient
 // const ObjectId = require('mongodb').ObjectID
+require('dotenv').config()
 
 const app = express()
 const path = require('path')
+
+console.log(app.get('env'))
 
 let db
 
 app.use(express.static('static'))
 app.use('/public', express.static(path.join(__dirname, '../public')))
-app.use('/app', express.static(path.join(__dirname, '../src/index.html')))
+app.use('/app', express.static(path.join(__dirname, '../index.html')))
 
 app.get('/api/contacts', (req, res) => {
   db.collection('contacts')
